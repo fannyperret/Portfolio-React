@@ -58,7 +58,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Container className="p-0 responsive" fluid={true}>
+        <Container className="p-0" fluid={true}>
 
           <Navbar className="border-bottom" bg="transparent" expand="lg">
 
