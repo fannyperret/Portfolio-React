@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { useDarkMode } from './useDarkMode';
 import { lightTheme, darkTheme } from './theme';
@@ -22,7 +22,6 @@ function AppTheme() {
         <>
             <GlobalStyles />
             <Toggle theme={theme} toggleTheme={toggleTheme} />
-            {/* <h1>It's a {theme === 'light' ? 'light theme' : 'dark theme'}!</h1> */}
         </>
     </ThemeProvider>
     

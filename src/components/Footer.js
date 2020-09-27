@@ -7,6 +7,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Heart, Bootstrap } from 'react-bootstrap-icons';
 
+import { FaReact, FaLinkedin } from 'react-icons/fa';
+import { GoMarkGithub as GithubIcon } from "react-icons/go";
+
 
 function Footer() {
 
@@ -17,31 +20,19 @@ function Footer() {
                     <Col className="p-0" md={6} sm={12} xs={12}>
                         This site was made by Fanny Perret with  
                         {' '}
-                        <img 
-                        alt="Black icon React"
-                        src={require('../assets/img/React_Icon.png')} 
-                        width="15"
-                        />, <Bootstrap size={15} /> and <Heart size={15} />.
+                        <FaReact />, <Bootstrap size={15} /> and <Heart size={15} />.
                     </Col>
-                    <Col className="p-0" md={3} sm={6} xs={4}>
+                    <Col className="p-0" md={3} sm={6} xs={3}>
                         © <Year />
                     </Col>
                     <Col className="p-0" md={3} sm={6} xs={8}>
                         <a href="https://github.com/fannyperret">
-                            <img 
-                            alt="Black icon React"
-                            src={require('../assets/img/icons/github.png')} 
-                            width="30"
-                            />
+                            <GithubIcon />
                             <span className="social-media">Github</span>
                         </a>
                         {' '}
                         <a href="https://www.linkedin.com/in/perretfanny/">
-                            <img 
-                            alt="Black icon React"
-                            src={require('../assets/img/icons/linkedin.png')} 
-                            width="25"
-                            />
+                            <FaLinkedin />
                             <span className="social-media">Linkedin</span>
                         </a>
                     </Col>

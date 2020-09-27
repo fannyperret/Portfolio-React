@@ -2,8 +2,8 @@ import React from 'react'
 import { func, string } from 'prop-types';
 import styled from 'styled-components';
 
-import MoonIcon from '../assets/img/icons/moon.png';
-import SunIcon from '../assets/img/icons/sun.png';
+import { BsSun } from 'react-icons/bs';
+import { RiMoonClearFill } from 'react-icons/ri';
 
 const ToggleContainer = styled.button`
     position: relative;
@@ -47,8 +47,8 @@ const Toggle = ({ theme, toggleTheme }) => {
     
     return (
     <ToggleContainer lightTheme={isLight} onClick={toggleTheme} >
-        <img src={SunIcon} className="icon-theme"alt={"logo"}/> 
-        <img src={MoonIcon} className="icon-theme" alt={"logo"}/>
+        <BsSun className="icon-theme" style={{ fill: 'orange' }} />
+        <RiMoonClearFill className="icon-theme" style={{ fill: 'yellow' }} />
     </ToggleContainer>
     );
 };
