@@ -1,14 +1,21 @@
 import React from 'react';
 
-import CardInfo from '../components/CardInfo';
+import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
+
+// import CardInfo from '../components/CardInfo';
 
 function Card(props) {
 
     return(
-        <div className="d-inline-block css-card" onClick={(e) => props.click(props.item)}>
-
+        <div className="d-inline-block css-card">
             <img className="css-card-img" src={props.item.imgSrc} alt={props.item.imgSrc} />
-            { props.item.selected && <CardInfo title={props.item.title} subTitle={props.item.subTitle} /> }
+            <div className="div-card">
+                <p className="css-card-title">{props.item.title}</p>
+                <p className="css-card-subtitle">{props.item.subTitle}</p>
+                <span className="rating-card">
+                    <BsStarFill style={{ fill: 'yellow' }} /> <BsStarFill style={{ fill: 'yellow' }} /> <BsStarFill style={{ fill: 'yellow' }} /> <BsStarHalf style={{ fill: 'yellow' }} /> <BsStar style={{ fill: 'yellow' }} />
+                </span>
+            </div>
             
         </div>
     )

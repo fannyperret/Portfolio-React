@@ -28,6 +28,7 @@ footer{
 }
 
 .css-card {
+  position: relative;
   cursor: pointer;
   margin: 5px;
   padding: 2vh;
@@ -35,9 +36,23 @@ footer{
   border: 1px solid #cccccc;
 }
 
-.css-card:hover {
-  opacity: 0.2;
+.div-card {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.div-card:hover {
+  opacity: 1;
+  /* background-color: #57A773; */
+  background: linear-gradient(#131A48, #2173D9);
+  border: white solid 1vh;
+  border-radius: 9px;
   transition: all 0.25s linear;
+  filter: drop-shadow(0 0 0.75rem black);
 }
 
 .css-card-img {
@@ -46,19 +61,29 @@ footer{
   box-shadow: 0px 0px 3px 1px #cccccc;
 }
 
-/* .css-card-info {
-  margin-top: 10px;
-  min-height: 400px;
-} */
+.css-card-title, .css-card-subtitle {
+  word-wrap: break-word;
+  padding: 5px 10px 0 10px;
+}
 
 .css-card-title {
-  font-size: 24px;
+  font-size: 2.5vh;
+  font-weight: bold;
   margin: 0px;
 }
 
 .css-card-subtitle {
-  font-size: 16px;
+  font-size: 1.5vh;
   margin: 0px;
+}
+
+.rating-card {
+  position: absolute;
+  top: 70%;
+  bottom: 20%;
+  left: 15%;
+  right: 15%;
+  
 }
 
 .success-msg {
@@ -82,9 +107,15 @@ button.sc-AxjAm.fJDuYb {
 
 /* media queries IN PROCESS!!! NOT COMPLETELY RESPONSIVE */
 @media screen and (max-width: 1003px) {
+
+  .css-card-img {
+    width: 20vh;
+  }
+
   footer {
     position: relative;
   }
+
 }
 
 
