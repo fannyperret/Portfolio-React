@@ -24,28 +24,28 @@ class Gallery extends React.Component {
                 {
                     id: 0,
                     title: 'HTML5',
-                    subTitle: 'The squelette for website',
+                    subTitle: 'Hypertext Markup Language. IT IS NOT A PROGRAMMING LANGUAGE.',
                     imgSrc: html5img,
                     rating: 4.5,
                 },
                 {
                     id: 1,
                     title: 'CSS3',
-                    subTitle: 'The decoration for website',
+                    subTitle: 'Cascading Style Sheets, helps build a beautiful Internet!',
                     imgSrc: css3img,
                     rating: 4,
                 },
                 {
                     id: 2,
                     title: 'JavaScript',
-                    subTitle: 'The fun for website',
+                    subTitle: 'The Programming Language for the Web. Please don\'t call it Java!',
                     imgSrc: jsimg,
                     rating: 3,
                 },
                 {
                     id: 3,
                     title: 'Git',
-                    subTitle: 'The best tool for my projects and community',
+                    subTitle: 'A free and open source version control system to handle projects!',
                     imgSrc: gitimg,
                     rating: 4,
                 },
@@ -59,59 +59,41 @@ class Gallery extends React.Component {
                 {
                     id: 5,
                     title: 'Json',
-                    subTitle: 'JavaScript Object Notation: really useful',
+                    subTitle: 'JavaScript Object Notation: a lightweight format for storing and transporting data.',
                     imgSrc: jsonimg,
                     rating: 4,
                 },
                 {
                     id: 6,
                     title: 'React',
-                    subTitle: 'Library developed by Facebook in 2013',
+                    subTitle: 'Library developed by Facebook in 2013. I started React and is awesome!',
                     imgSrc: reactimg,
                     rating: 1,
                 },
                 {
                     id: 7,
                     title: 'Bootstrap',
-                    subTitle: 'Still using Jquery but not for long time thanks to Bootstrap 5 (coming soon)',
+                    subTitle: 'The good old front-end framework because you can use it for React too!',
                     imgSrc: bootstrapimg,
                     rating: 4,
                 },
                 {
                     id: 8,
                     title: 'Php',
-                    subTitle: 'Still using Jquery but not for long time thanks to Bootstrap 5 (coming soon)',
+                    subTitle: 'My first programming language (7.2)! Php 8 Beta is now available!',
                     imgSrc: phpimg,
                     rating: 2,
                 },
                 {
                     id: 9,
                     title: 'Leaflet',
-                    subTitle: 'Still using Jquery but not for long time thanks to Bootstrap 5 (coming soon)',
+                    subTitle: 'I used this library to create interactive maps!',
                     imgSrc: leafletimg,
                     rating: 4,
                 }
             ]
         }
     }
-
-    // handleCardClick = (id, card) => {
-    //     console.log(id);
-
-    //     let items = [...this.state.items];
-
-    //     items[id].selected = items[id].selected ? false : true;
-
-    //     items.forEach(item => {
-    //         if (item.id !== id) {
-    //             item.selected = false;
-    //         }
-    //     });
-
-    //     this.setState({
-    //         items
-    //     });
-    // }
 
     makeItems = (items) => {
         return items.map(item => {
