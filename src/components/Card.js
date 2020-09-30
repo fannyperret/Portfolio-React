@@ -2,8 +2,6 @@ import React from 'react';
 
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 
-// import CardInfo from '../components/CardInfo';
-
 function Card(props) {
 
     return(
@@ -16,7 +14,6 @@ function Card(props) {
                     <BsStarFill style={{ fill: 'yellow' }} /> <BsStarFill style={{ fill: 'yellow' }} /> <BsStarFill style={{ fill: 'yellow' }} /> <BsStarHalf style={{ fill: 'yellow' }} /> <BsStar style={{ fill: 'yellow' }} />
                 </span>
             </div>
-            
         </div>
     )
 }

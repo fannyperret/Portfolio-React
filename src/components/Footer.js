@@ -9,7 +9,7 @@ import { Heart, Bootstrap } from 'react-bootstrap-icons';
 
 import { FaReact, FaLinkedin } from 'react-icons/fa';
 import { GoMarkGithub as GithubIcon } from "react-icons/go";
-
+import { SiCodewars } from "react-icons/si";
 
 function Footer() {
 
@@ -18,7 +18,7 @@ function Footer() {
             <Container fluid={true}>
                 <Row className="border-top p-3">
                     <Col className="p-0" md={6} sm={12} xs={12}>
-                        This site was made by Fanny Perret with  
+                        This site was made by #Fanny with  
                         {' '}
                         <FaReact />, <Bootstrap size={15} /> and <Heart size={15} />.
                     </Col>
@@ -29,6 +29,11 @@ function Footer() {
                         <a href="https://github.com/fannyperret">
                             <GithubIcon />
                             <span className="social-media">Github</span>
+                        </a>
+                        {' '}
+                        <a href="https://www.codewars.com/users/FunnyRose">
+                            <SiCodewars className="codewars" />
+                            <span className="social-media">Codewars</span>
                         </a>
                         {' '}
                         <a href="https://www.linkedin.com/in/perretfanny/">
