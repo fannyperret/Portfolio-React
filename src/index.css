@@ -33,7 +33,7 @@ footer{
 
 .css-card {
   position: relative;
-  cursor: pointer;
+  /* cursor: pointer; */
   margin: 5px;
   padding: 2vh;
   border-radius: 10px;
@@ -86,8 +86,11 @@ footer{
   top: 70%;
   bottom: 20%;
   left: 15%;
-  right: 15%;
-  
+  right: 15%; 
+}
+
+.deck-img {
+  max-width: 100%;
 }
 
 .success-msg {

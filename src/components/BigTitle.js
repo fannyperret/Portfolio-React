@@ -15,14 +15,14 @@ function BigTitle(props) {
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
             <Container fluid={true}>
                 <Row className="justify-content-center">
-                    <Col className="py-5" md={{span: 5, order: 1 }} sm={12} xs={{span: 12, order: 2 }}>
+                    <Col className="py-5"  xl={4} lg={6} md={12} sm={12} xs={{span: 12, order: 2 }}>
                         { props.title && <h1 className="display-2 font-weight-bolder">{props.title}</h1> }
                         { props.subTitle && <h2 className="display-6 font-weight-light">{props.subTitle}</h2> }
                         { props.text && <h3 className="lead font-weight-light">{props.text}</h3> }
                         { props.textTwo && <p className="py-5 lead font-weight-light">{props.textTwo}</p> }
                         { props.textThree && <p className="lead font-weight-light">{props.textThree}</p> }
                     </Col>
-                    <Col className="p-0" md={{span: 7, order: 2 }} sm={12} xs={{span: 12, order: 1 }}>
+                    <Col className="p-0" xl={8} lg={6} md={12} sm={12} xs={{span: 12, order: 1 }}>
                         <Image src={hello} fluid />
                     </Col>
                 </Row>
