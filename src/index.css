@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -6,9 +8,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.google-font {
+  font-family: 'Pathway Gothic One', sans-serif;
 }
 
 footer{ 
@@ -91,6 +92,19 @@ footer{
 
 .deck-img {
   max-width: 100%;
+}
+
+.deck-title {
+  font-size: 3vh;
+  font-weight: bold;
+  /* margin: 0px; */
+}
+
+.deck-year {
+  color: rgb(201, 141, 51);
+  font-weight: bold;
+  -webkit-text-stroke: 1px #CF7498;
+  -webkit-text-fill-color: #FFDE59;
 }
 
 .success-msg {

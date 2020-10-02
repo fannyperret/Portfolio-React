@@ -16,7 +16,7 @@ class Deck extends React.Component {
                 {
                     id: 0,
                     title: 'Portfolio',
-                    description: 'I wanted to have a Portfolio responvie, creative and colorful with React and Bootstrap! I added a theme Light/Dark to this!',
+                    description: 'I wanted to have a Portfolio responsive, creative and colorful with React and Bootstrap! I added a theme Light/Dark to this!',
                     imgSrc: portfolioimg,
                     year: 'October 2020',
                     link: 'https://fannyperret.fr',

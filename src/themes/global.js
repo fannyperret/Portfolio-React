@@ -23,4 +23,14 @@ export const GlobalStyles = createGlobalStyle`
   .navbar-light .navbar-nav .nav-link {
     color: ${({ theme }) => theme.a};
   }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: ${({ theme }) => theme.hover};
+  }
+
+  .navbar-light .navbar-nav .nav-link:active {
+    color: ${({ theme }) => theme.active};
+  }
+
   `
+
