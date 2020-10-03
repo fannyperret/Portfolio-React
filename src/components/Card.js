@@ -11,7 +11,7 @@ function Card(props) {
                 <p className="css-card-title">{props.item.title}</p>
                 <p className="css-card-subtitle">{props.item.subTitle}</p>
                 <span className="rating-card">
-                    <BsStarFill style={{ fill: 'yellow' }} /> <BsStarFill style={{ fill: 'yellow' }} /> <BsStarFill style={{ fill: 'yellow' }} /> <BsStarHalf style={{ fill: 'yellow' }} /> <BsStar style={{ fill: 'yellow' }} />
+                    <BsStarFill size={20} style={{ fill: 'yellow' }} /> <BsStarFill size={20} style={{ fill: 'yellow' }} /> <BsStarFill size={20} style={{ fill: 'yellow' }} /> <BsStarHalf size={20} style={{ fill: 'yellow' }} /> <BsStar size={20} style={{ fill: 'yellow' }} />
                 </span>
             </div>
         </div>

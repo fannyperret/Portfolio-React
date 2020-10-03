@@ -52,9 +52,6 @@ footer{
 
 .div-card:hover {
   opacity: 1;
-  /* background-color: #57A773; */
-  background: linear-gradient(#131A48, #2173D9);
-  border: white solid 1vh;
   border-radius: 9px;
   transition: all 0.25s linear;
   filter: drop-shadow(0 0 0.75rem black);
@@ -72,13 +69,13 @@ footer{
 }
 
 .css-card-title {
-  font-size: 2.5vh;
+  font-size: 1.5em;
   font-weight: bold;
   margin: 0px;
 }
 
 .css-card-subtitle {
-  font-size: 1.5vh;
+  font-size: 0.8em;
   margin: 0px;
 }
 
@@ -86,8 +83,8 @@ footer{
   position: absolute;
   top: 70%;
   bottom: 20%;
-  left: 15%;
-  right: 15%; 
+  left: 10%;
+  right: 10%; 
 }
 
 .deck-img {
@@ -97,7 +94,6 @@ footer{
 .deck-title {
   font-size: 3vh;
   font-weight: bold;
-  /* margin: 0px; */
 }
 
 .deck-year {

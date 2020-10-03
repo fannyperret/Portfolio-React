@@ -16,6 +16,11 @@ export const GlobalStyles = createGlobalStyle`
     transition: all 0.25s linear;
   }
 
+  .div-card:hover {
+    background-color: ${({ theme }) => theme.backColor};
+    border: ${({ theme }) => theme.borderColor};
+  }
+
   .rounded-img {
     border-color: ${({ theme }) => theme.border};
   }

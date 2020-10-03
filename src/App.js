@@ -34,8 +34,8 @@ class App extends React.Component {
       title: '< Be Code />',
         subTitle: 'Creating Projects make the difference',
         text: 'Welcome to my portfolio!',
-        textTwo: 'Hi everyone! My name is Fanny. I\'m a French Frontend Developer! After 5 years studying History of Art and living 3 years in Spain I moved in Lyon. I began learning Code for the first time in 2017. For me, programming is an another way to create and have fun in this Hello World!',
-        textThree: 'I consider the Code in the same way as a language spoken but just written. So please, feel free to navigate here :)'
+        textTwo: 'Hi everyone! My name is Fanny. I\'m a French Frontend Developer! After 5 years studying History of Art and living 3 years in Spain I moved in Lyon. I began learning Code for the first time in 2017. For me, Programming is an another way to create and have fun in this "Hello World!"',
+        textThree: 'For me, learning a programming language and a foreign language is similar. Every language (whether human or programming) has it rules. So please, feel free to navigate here ;)'
       },
       about: {
         title: 'About me',
@@ -44,8 +44,8 @@ class App extends React.Component {
       },
       projects: {
         title: 'My Projects',
-        subTitle: 'Some independants projects',
-        text: 'In process...'
+        subTitle: 'Some independents projects',
+        text: 'New ideas and challenges in process...'
       },
       contact: {
         title: 'Let\'s Talk!',
