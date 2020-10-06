@@ -26,7 +26,7 @@ class Gallery extends React.Component {
                     title: 'HTML5',
                     subTitle: 'Hypertext Markup Language. IT IS NOT A PROGRAMMING LANGUAGE.',
                     imgSrc: html5img,
-                    rating: 4.5,
+                    rating: 4,
                 },
                 {
                     id: 1,
@@ -98,6 +98,7 @@ class Gallery extends React.Component {
     makeItems = (items) => {
         return items.map(item => {
             return <Card item={item} key={item.id} />
+            
         }); 
     }
 
