@@ -11,7 +11,7 @@ function SecondTitle(props) {
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
             <Container fluid={true}>
                 <Row className="justify-content-center">
-                    <Col className="" md={{span: 5}} sm={12} xs={{span: 12}}>
+                    <Col className="" lg={{span: 5}} md={{span: 8}} sm={12} xs={{span: 12}}>
                         { props.title && <h1 className="display-2 font-weight-bolder">{props.title}</h1> }
                         { props.subTitle && <h2 className="display-6 font-weight-light">{props.subTitle}</h2> }
                         { props.text && <h3 className="lead font-weight-light">{props.text}</h3> }
