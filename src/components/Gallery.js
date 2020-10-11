@@ -97,8 +97,8 @@ class Gallery extends React.Component {
 
     makeItems = (items) => {
         return items.map(item => {
+            // console.log("item rating " + item.rating);
             return <Card item={item} key={item.id} />
-            
         }); 
     }
 
