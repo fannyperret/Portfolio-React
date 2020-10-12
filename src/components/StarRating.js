@@ -4,8 +4,6 @@ import { BsStarFill, BsStar } from "react-icons/bs";
 
 function StarRating(props) {
 
-    console.log("CACAAAAAA " + props.rating);
-
     if (props.rating === 5) {
         return(
             <div>
