@@ -46,18 +46,3 @@ function StarRating(props) {
 }
 
 export default StarRating;
-
-
-
-// function recupStars(props) {
-    
-//     console.log(props.item.rating);
-//     var count = props.item.rating;
-//     console.log(count);
-//     for (var i=0; i<5; i++) {
-//         console.log(props.item.rating);
-//         count -= 1;
-//     }
-//     console.log("COUNT " + count);
-
-// }

@@ -93,7 +93,7 @@ class ContactPage extends React.Component {
                         </Button>
 
                         {this.state.emailSent === true && <p className="d-inline success-msg">Email sent, awesome!</p>}
-                        {this.state.emailSent === false && <p className="d-inline err-msg">Oops, something went wrong. Try again</p>}
+                        {this.state.emailSent === false && <p className="d-inline err-msg">Oops, something went wrong. Try again.</p>}
 
                     </Form>
                 </Content>
