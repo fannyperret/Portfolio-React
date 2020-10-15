@@ -31,7 +31,7 @@ class Gallery extends React.Component {
                 {
                     id: 1,
                     title: 'CSS3',
-                    subTitle: 'Cascading Style Sheets, helps build a beautiful Internet!',
+                    subTitle: 'Cascading Style Sheets, helps to build a beautiful Internet!',
                     imgSrc: css3img,
                     rating: 4,
                 },
@@ -52,7 +52,7 @@ class Gallery extends React.Component {
                 {
                     id: 4,
                     title: 'Jquery',
-                    subTitle: 'Library who will die soon?',
+                    subTitle: 'Library, will it die soon?',
                     imgSrc: jqueryimg,
                     rating: 4,
                 },
@@ -66,14 +66,14 @@ class Gallery extends React.Component {
                 {
                     id: 6,
                     title: 'React',
-                    subTitle: 'Library developed by Facebook in 2013. I started React and is awesome!',
+                    subTitle: 'Library developed by Facebook in 2013. I started React and I love it!',
                     imgSrc: reactimg,
                     rating: 1,
                 },
                 {
                     id: 7,
                     title: 'Bootstrap',
-                    subTitle: 'The good old front-end framework because you can use it for React too!',
+                    subTitle: 'The good old front-end framework, you can use it for React too!',
                     imgSrc: bootstrapimg,
                     rating: 4,
                 },

@@ -32,15 +32,15 @@ class App extends React.Component {
       ],
       home: {
       title: '< Be Code />',
-        subTitle: 'Creating Projects make the difference',
+        subTitle: 'Creating Projects makes the difference',
         text: 'Welcome to my portfolio!',
-        textTwo: 'Hi everyone! My name is Fanny. I\'m a French Frontend Developer! After 5 years studying History of Art and living 3 years in Spain I moved in Lyon. I began learning Code for the first time in 2017. For me, Programming is an another way to create and have fun in this "Hello World!"',
-        textThree: 'For me, learning a programming language and a foreign language is similar. Every language (whether human or programming) has it rules. So please, feel free to navigate here ;)'
+        textTwo: 'Hi everyone! My name is Fanny. I\'m a French frontend developer! After 5 years studying History of Art and living 3 years in Spain I moved in Lyon. I began learning code for the first time in 2017. Programming is another way to create and have fun in this "Hello World!"',
+        textThree: 'Learning a programming language and a foreign language is similar. Every language (whether human or programming) has its rules. So please, feel free to navigate here ;)'
       },
       about: {
         title: 'About me',
-        subTitle: 'Watch my skills!',
-        text: 'Rating cards created and designed by me: fly over them!'
+        subTitle: 'Check my skills!',
+        text: 'Rating cards created and designed by myself: fly over them!'
       },
       projects: {
         title: 'My Projects',
@@ -49,7 +49,7 @@ class App extends React.Component {
       },
       contact: {
         title: 'Let\'s Talk!',
-        subTitle: 'Do you want ask me something?',
+        subTitle: 'Do you want to ask me something?',
         text: 'Leave me a message below:'
       }
     }

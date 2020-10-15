@@ -16,7 +16,7 @@ class Deck extends React.Component {
                 {
                     id: 0,
                     title: 'Portfolio',
-                    description: 'I wanted to have a Portfolio responsive, creative and colorful with React and Bootstrap! I added a theme Light/Dark to this!',
+                    description: 'I wanted to have a responsive Portfolio, creative and colorful with React and Bootstrap! I added a Light/Dark theme to it!',
                     imgSrc: portfolioimg,
                     year: 'October 2020',
                     link: 'https://fannyperret.fr',
@@ -25,7 +25,7 @@ class Deck extends React.Component {
                 {
                     id: 1,
                     title: 'Wild Circus',
-                    description: 'This is my first time learning how to create a static page with HTML5, CSS3 and JS. It\'s really old but I\'m very proud of it.',
+                    description: 'This is my first time learning how to create a static page with HTML5, CSS3 and JS. It\'s really old but I\'m still proud of it.',
                     imgSrc: catcircusimg,
                     year: 'June 2017',
                     link: 'https://jsfiddle.net/FunnyRose/n0yoxs0j/show/',
