@@ -135,4 +135,32 @@ button.sc-AxjAm.fJDuYb {
 
 }
 
+@media screen and (max-width: 360px) {
+
+
+  h1.display-2 {
+    font-size: 3em;
+  }
+
+  h2.display-6 {
+    font-size: 1.5em;
+  }
+  
+  /* button */
+  button.sc-AxjAm.Qmghp {
+    padding: 5px;
+    width: 3.5rem;
+  }
+
+  button.sc-AxjAm.fJDuYb {
+    padding: 5px;
+    width: 3.5rem;
+  }
+  
+  button.navbar-toggler {
+    padding: 0;
+  }
+
+}
+
 
