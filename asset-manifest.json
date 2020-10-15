@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.64a25064.chunk.css",
+    "main.css": "/Portfolio-React/static/css/main.b018c1a0.chunk.css",
     "main.js": "/Portfolio-React/static/js/main.2ba52c04.chunk.js",
     "main.js.map": "/Portfolio-React/static/js/main.2ba52c04.chunk.js.map",
     "runtime-main.js": "/Portfolio-React/static/js/runtime-main.ddefb0db.js",
@@ -9,10 +9,10 @@
     "static/js/2.ef55980c.chunk.js": "/Portfolio-React/static/js/2.ef55980c.chunk.js",
     "static/js/2.ef55980c.chunk.js.map": "/Portfolio-React/static/js/2.ef55980c.chunk.js.map",
     "index.html": "/Portfolio-React/index.html",
-    "precache-manifest.0026c1e71bcb81e72c94adbf5e9ef608.js": "/Portfolio-React/precache-manifest.0026c1e71bcb81e72c94adbf5e9ef608.js",
+    "precache-manifest.49ea5dea06a438951fa85fbc07e39f2b.js": "/Portfolio-React/precache-manifest.49ea5dea06a438951fa85fbc07e39f2b.js",
     "service-worker.js": "/Portfolio-React/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/Portfolio-React/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.64a25064.chunk.css.map": "/Portfolio-React/static/css/main.64a25064.chunk.css.map",
+    "static/css/main.b018c1a0.chunk.css.map": "/Portfolio-React/static/css/main.b018c1a0.chunk.css.map",
     "static/js/2.ef55980c.chunk.js.LICENSE.txt": "/Portfolio-React/static/js/2.ef55980c.chunk.js.LICENSE.txt",
     "static/media/Avatar_Dev.png": "/Portfolio-React/static/media/Avatar_Dev.936ac344.png",
     "static/media/Hello_World.png": "/Portfolio-React/static/media/Hello_World.2e915684.png",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.ddefb0db.js",
     "static/css/2.f3cffc9e.chunk.css",
     "static/js/2.ef55980c.chunk.js",
-    "static/css/main.64a25064.chunk.css",
+    "static/css/main.b018c1a0.chunk.css",
     "static/js/main.2ba52c04.chunk.js"
   ]
 }
