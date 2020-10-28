@@ -64,7 +64,7 @@ class App extends React.Component {
 
             <Navbar.Brand className="p-0">
               <Nav className="p-0">
-                <Link className="p-0 nav-link" to="/">
+                <Link className="p-0 nav-link" to="">
                   <img
                     alt="Author's Avatar for Brand"
                     src={avatar}
@@ -88,7 +88,7 @@ class App extends React.Component {
               <Nav className="ml-auto">
                 {/* TOGGLE */}
                 {/* <AppTheme /> */}
-                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/projects">Projects</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
@@ -97,7 +97,7 @@ class App extends React.Component {
 
           </Navbar>
 
-          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} textTwo={this.state.home.textTwo} textThree={this.state.home.textThree} />} />
+          <Route path="" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} textTwo={this.state.home.textTwo} textThree={this.state.home.textThree} />} />
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} subTitle={this.state.about.subTitle} text={this.state.about.text} />} />
           <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} subTitle={this.state.projects.subTitle} text={this.state.projects.text} />} />
           <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle} text={this.state.contact.text} />} />
